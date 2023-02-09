@@ -8,7 +8,7 @@ function App() {
 
     useEffect(() => {
       
-        fetch("http://localhost:8000/")
+        fetch("https://shopping-front-knn1.onrender.com")
             .then((response) => response.json())
             .then((data) => {
                 setProducts(data)
