@@ -8,7 +8,7 @@ function App() {
 
     useEffect(() => {
       
-        fetch("https://shopping-front-knn1.onrender.com")
+        fetch("https://shopping-front-knn1.onrender.com"),{mode: 'no-cors'}
             .then((response) => response.json())
             .then((data) => {
                 setProducts(data)
